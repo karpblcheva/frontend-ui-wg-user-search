@@ -1,0 +1,38 @@
+@font-face {
+	font-family: "WarHelios";
+	src:
+		url('../fonts/warhelioscondc-webfont.woff') format("woff"),
+		url('../fonts/warhelioscondc-webfont.ttf') format("truetype");
+	font-weight: normal;
+	font-style: normal
+}
+
+@font-face {
+	font-family: "WarHelios";
+	src: 
+		url('../fonts/warhelioscondcbold-webfont.woff') format("woff"), 
+		url('../fonts/warhelioscondcbold-webfont.ttf') format("truetype");
+	font-weight: bold;
+	font-style: normal
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background: url(../images/bg.jpg) left top/100% 100% no-repeat #000;
+  color: #fff;
+  padding-top: 110px;
+  box-sizing: border-box;
+  font-family: WarHelios;
+}
+
+.users {
+  height: 24px;
+  text-align: center;
+}
